@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.navbar {
+    background-color: #D72323; /* Red background color */
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar  {
+    margin-right: 20px; /* Adjust the value to increase or decrease spacing */
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    margin-right: 20px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    margin-right: 60px;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.phone-number {
+    margin-right: 20px;
+}
+.order-button {
+    background-color: #70B047; /* Green button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.menu-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #D72323; /* Red background color */
+    cursor: pointer;
+}
+.menu-icons img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    margin: 0 10px;
+}
+.menu-icons span {
+    color: white;
+    margin: 0 10px;
+}
+.nav-links li :hover{
+    text-decoration: underline;
+}
